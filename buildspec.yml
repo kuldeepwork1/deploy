@@ -18,5 +18,5 @@ phases:
 
 artifacts:
   files:
-    - '**/*'
-  base-directory: out
+    - '**/*'            # take everything, including appspec.yml and scripts
+  discard-paths: no     # preserve folder structure
