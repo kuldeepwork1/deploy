@@ -28,7 +28,7 @@ export function HeroSection() {
           <RevealOnScroll distance={0}>
             <h1 className="font-black leading-tight mb-6">
               <span className="text-black text-2xl md:text-4xl lg:text-5xl sm:text-3xl">
-                Sbzees Fuels Life - Order Fresh
+                Sbzee Fuels Life - Order Fresh
               </span>
               <span className="text-accent-500 text-xl block md:text-4xl lg:text-5xl sm:text-2xl mt-2 ">
                 Vegetables & Fruits Online
