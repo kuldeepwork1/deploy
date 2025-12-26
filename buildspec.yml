@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - echo "Node version:"
+      - node -v
+      - echo "Installing dependencies..."
+      - npm install --legacy-peer-deps
+
+  build:
+    commands:
+      - echo "Running Next.js static build (export enabled)..."
+      - npm run build
+      - echo "Build completed"
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: out
