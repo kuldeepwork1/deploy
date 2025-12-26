@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { HeaderClient } from "../ui/HeaderClient";
 
 const navigation = [
-  { name: "Home", href: "/" },
+  { name: "Ghar", href: "/" },
   { name: "About Us", href: "/about" },
   { name: "Blog", href: "/blog" },
   { name: "Contact Us", href: "/contact" },
