@@ -1,5 +1,4 @@
 #!/bin/bash
 set -e
-
-echo "===== ApplicationStart ====="
+echo "Starting app..."
 systemctl restart nginx
